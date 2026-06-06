@@ -1,4 +1,4 @@
-# Bayesian Optimization for Analog IC Sizing
+# Bayesian Optimization for Sizing CMOS Schmitt Trigger
 ### ML-Guided CMOS Schmitt Trigger Threshold Optimization on SKY130 130nm PDK
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
