@@ -1,0 +1,9 @@
+*.raw
+*.out
+bsim4v5.out
+tmp_*.spice
+tmp_*.raw
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/*.json

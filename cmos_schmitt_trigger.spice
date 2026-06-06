@@ -1,0 +1,41 @@
+** sch_path: /home/nithin/eda/SKY130_DESIGN_IPS/POR/cmos_schmitt_trigger.sch
+**.subckt cmos_schmitt_trigger
+XM1 net1 VIN 0 GND sky130_fd_pr__nfet_01v8 L=2.5 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM2 VOUT VIN net1 GND sky130_fd_pr__nfet_01v8 L=2.5 W=5 nf=1 ad=1.45 as=1.45 pd=10.58 ps=10.58 nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
++ mult=1
+XM3 VDD VOUT net1 GND sky130_fd_pr__nfet_01v8 L=0.15 W=6.5 nf=1 ad=1.885 as=1.885 pd=13.58 ps=13.58 nrd=0.0446153846153846
++ nrs=0.0446153846153846 sa=0 sb=0 sd=0 mult=10 m=10
+XM4 VOUT VIN net2 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=16 nf=1 ad=4.64 as=4.64 pd=32.58 ps=32.58 nrd=0.018125 nrs=0.018125 sa=0
++ sb=0 sd=0 mult=10 m=10
+XM5 net2 VIN VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=16 nf=1 ad=4.64 as=4.64 pd=32.58 ps=32.58 nrd=0.018125 nrs=0.018125 sa=0
++ sb=0 sd=0 mult=10 m=10
+XM6 net2 VOUT 0 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+V2 VDD 0 1.8
+V1 VIN 0 PULSE(0 1.8 0 1m 1m 10u 2m)
+**** begin user architecture code
+
+** opencircuitdesign pdks install
+.lib /home/nithin/.ciel/sky130A/libs.tech/combined/sky130.lib.spice tt
+
+
+
+.option wnflag=1
+.option savecurrents
+.temp 27
+.control
+save all
+op
+write cmos_schmitt_trigger.raw
+set appendwrite
+tran 1u 2m
+plot v(Vout) v(Vin)
+write cmos_schmitt_trigger.raw
+
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL VDD
+.end
