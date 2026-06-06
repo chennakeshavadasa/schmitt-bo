@@ -35,7 +35,7 @@ Each evaluation is an expensive black-box call (~35 s per ngspice DC sweep pair)
 ## The Circuit
 
 <p align="center">
-  <img src="figures/cmos_schmitt_trigger.svg" alt="6T CMOS Schmitt Trigger Schematic" width="500"/>
+  <img src="figures/cmos_schmitt_trigger.png" alt="6T CMOS Schmitt Trigger Schematic" width="500"/>
 </p>
 
 A 6-transistor CMOS Schmitt Trigger implemented in SKY130. The circuit produces **hysteretic switching** — it switches high-to-low at V_PH and low-to-high at V_PL, creating a noise-immune threshold with 220 mV hysteresis.
