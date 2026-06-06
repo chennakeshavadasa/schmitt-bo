@@ -97,6 +97,8 @@ python experiments/analyze_results.py
 | Latin Hypercube | ~80 | ~30mV |
 | **Bayesian Opt (ours)** | **~45** | **<15mV** |
 
+![Convergence Comparison](figures/convergence.png)
+
 ## What You'll Learn from This Code
 
 - Gaussian Process regression with scikit-learn
