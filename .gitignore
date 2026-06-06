@@ -1,9 +1,22 @@
+# ngspice temp files
 *.raw
 *.out
 bsim4v5.out
 tmp_*.spice
 tmp_*.raw
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
 .ipynb_checkpoints/
-results/*.json
+*.egg-info/
+dist/
+build/
+
+# Large result files (regenerate locally)
+results/bo_real_run.json
+
+# OS
+.DS_Store
+Thumbs.db
