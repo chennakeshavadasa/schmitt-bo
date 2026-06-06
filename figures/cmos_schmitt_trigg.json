@@ -1,0 +1,628 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "node",
+            "label": {
+                "value": "M5",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 113.386,
+                "y": -236.22
+            },
+            "id": "pmos"
+        },
+        {
+            "type": "node",
+            "label": {
+                "value": "M4",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 113.386,
+                "y": -160.63
+            },
+            "id": "pmos"
+        },
+        {
+            "type": "node",
+            "label": {
+                "value": "M2",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 113.386,
+                "y": -66.142
+            },
+            "id": "nmos"
+        },
+        {
+            "type": "node",
+            "label": {
+                "value": "M1",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 113.386,
+                "y": 18.142
+            },
+            "id": "nmos"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 113.386,
+                    "y": -206.362
+                },
+                {
+                    "x": 113.386,
+                    "y": -188.976
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 113.386,
+                    "y": -130.772
+                },
+                {
+                    "x": 113.386,
+                    "y": -96
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 113.386,
+                    "y": -37.795
+                },
+                {
+                    "x": 113.386,
+                    "y": -10.961
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 76.347,
+                    "y": -235.465
+                },
+                {
+                    "x": 56.693,
+                    "y": -236.22
+                },
+                {
+                    "x": 76.347,
+                    "y": 18.142
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-",
+                "|-"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 76.347,
+                    "y": -159.874
+                },
+                {
+                    "x": 56.693,
+                    "y": -160.63
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 113.386,
+                    "y": -130.772
+                },
+                {
+                    "x": 113.386,
+                    "y": -132.283
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 76.347,
+                    "y": -66.898
+                },
+                {
+                    "x": 56.693,
+                    "y": -66.142
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 113.386,
+                    "y": -94.488
+                },
+                {
+                    "x": 113.386,
+                    "y": -96
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "short",
+            "points": [
+                {
+                    "x": 103.937,
+                    "y": -283.465
+                },
+                {
+                    "x": 122.835,
+                    "y": -283.465
+                }
+            ],
+            "scale": 10
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 113.386,
+                    "y": -265.323
+                },
+                {
+                    "x": 113.386,
+                    "y": -283.465
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "label": {
+                "value": "M6",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 217.453,
+                "y": -179.528
+            },
+            "rotation": 90,
+            "id": "pmos"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 188.351,
+                    "y": -179.528
+                },
+                {
+                    "x": 113.386,
+                    "y": -179.528
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 217.453,
+                    "y": -142.489
+                },
+                {
+                    "x": 113.386,
+                    "y": -113.386
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ]
+        },
+        {
+            "type": "node",
+            "label": {
+                "value": "M3",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 217.323,
+                "y": -48
+            },
+            "rotation": -90,
+            "id": "nmos"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 188.22,
+                    "y": -48
+                },
+                {
+                    "x": 114.142,
+                    "y": -48
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 188.302,
+                    "y": -18.898
+                },
+                {
+                    "x": 187.465,
+                    "y": -18.898
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 217.323,
+                    "y": -113.386
+                },
+                {
+                    "x": 217.323,
+                    "y": -85.039
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 113.386,
+                "y": 56.693
+            },
+            "id": "ground"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 113.386,
+                    "y": 56.693
+                },
+                {
+                    "x": 113.386,
+                    "y": 47.244
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 283.465,
+                "y": -179.528
+            },
+            "id": "ground"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 246.556,
+                    "y": -179.528
+                },
+                {
+                    "x": 283.465,
+                    "y": -179.528
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 217.453,
+                "y": -113.386
+            },
+            "id": "circ"
+        },
+        {
+            "type": "short",
+            "points": [
+                {
+                    "x": 283.465,
+                    "y": -56.693
+                },
+                {
+                    "x": 283.465,
+                    "y": -37.795
+                }
+            ],
+            "scale": 10
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 246.425,
+                    "y": -48
+                },
+                {
+                    "x": 283.465,
+                    "y": -47.244
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "VDD",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 113.386,
+                "y": -292.913
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "VDD",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 307.087,
+                "y": -48
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            }
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 113.386,
+                "y": -113.386
+            },
+            "id": "circ"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 56.693,
+                    "y": -113.386
+                },
+                {
+                    "x": 0,
+                    "y": -113.386
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 56.693,
+                "y": -113.386
+            },
+            "id": "circ"
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "V_{IN}",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": -14.173,
+                "y": -113.386
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 217.453,
+                    "y": -113.386
+                },
+                {
+                    "x": 283.465,
+                    "y": -113.386
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "V_{OUT}",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 302.362,
+                "y": -113.386
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            }
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 113.386,
+                "y": -179.528
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 56.693,
+                "y": -160.63
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 56.693,
+                "y": -66.142
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 113.386,
+                "y": -47.244
+            },
+            "id": "circ"
+        }
+    ]
+}
